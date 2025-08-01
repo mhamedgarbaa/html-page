@@ -1,0 +1,57 @@
+{
+  "name": "mhamed-garbaa-portfolio",
+  "version": "2.0.0",
+  "description": "Enhanced portfolio website for Garbaa Mhamed - Telecommunications Engineering Student & AI Enthusiast",
+  "main": "index_enhanced.html",
+  "scripts": {
+    "start": "npx serve . -p 3000",
+    "dev": "npx live-server --port=3000 --open=index_enhanced.html",
+    "build": "echo 'Static site - no build required'",
+    "deploy": "gh-pages -d .",
+    "lint:html": "npx htmlhint *.html",
+    "lint:css": "npx stylelint *.css",
+    "lint:js": "npx eslint *.js",
+    "optimize": "npx imagemin DSC05764.jpg --out-dir=optimized",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "portfolio",
+    "resume",
+    "cv",
+    "telecommunications",
+    "ai",
+    "machine-learning",
+    "mlops",
+    "web-development",
+    "responsive",
+    "modern"
+  ],
+  "author": {
+    "name": "Garbaa Mhamed",
+    "email": "Mhamedgarbaa04@gmail.com",
+    "url": "https://github.com/mhamedgarbaa"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mhamedgarbaa/html-page.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mhamedgarbaa/html-page/issues"
+  },
+  "homepage": "https://mhamedgarbaa.github.io/html-page",
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "htmlhint": "^1.1.4",
+    "stylelint": "^16.1.0",
+    "eslint": "^8.56.0",
+    "imagemin": "^8.0.1",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^9.0.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
